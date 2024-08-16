@@ -1,0 +1,65 @@
+name: tok9ja_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+
+#....................PACKAGES..........................................#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility packages
+  http: ^1.1.0
+  intl: ^0.18.1
+  logger: ^2.0.1
+  lottie: ^2.7.0
+  url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
+
+  #icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.6
+
+
+  #state management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+
+#....................PACKAGES END..........................................#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  #....................LOCAL ASSETS..........................................#
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+
+  #....................LOCAL FONTS..........................................#
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+
